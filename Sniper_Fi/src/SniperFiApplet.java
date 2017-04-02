@@ -6,14 +6,14 @@ import app.*;
  * @author  Prof. David Bernstein, James Madison University
  * @version 1.0
  */
-public class      WeatherBitMapsApplet
+public class      SniperFiApplet
        extends    MultimediaApplet
 {
     /**
      * Default Constructor
      */
-    public WeatherBitMapsApplet()
+    public SniperFiApplet()
     {
-       super(new WeatherBitMapsApp());       
+       super(new SniperFiApp());       
     }
 }

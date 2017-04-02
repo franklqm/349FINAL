@@ -7,7 +7,7 @@ import app.*;
 /**
  * The application for PA5
  */
-public class   WeatherBitMapsApplication
+public class   SniperFiApplication
        extends MultimediaApplication
 {
     /**
@@ -18,7 +18,7 @@ public class   WeatherBitMapsApplication
     public static void main(String[] args) throws Exception
     {
        SwingUtilities.invokeAndWait(
-          new WeatherBitMapsApplication(args, 1250, 750));
+          new SniperFiApplication(args, 1250, 750));
     }
 	
     /**
@@ -28,9 +28,9 @@ public class   WeatherBitMapsApplication
      * @param width   The width of the content (in pixels)
      * @param height  The height of the content (in pixels)
      */
-    public WeatherBitMapsApplication(String[] args,
+    public SniperFiApplication(String[] args,
                                     int width, int height)
     {
-       super(args, new WeatherBitMapsApp(), width, height);
+       super(args, new SniperFiApp(), width, height);
     }
 }

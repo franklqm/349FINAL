@@ -31,7 +31,7 @@ import weather.visual.*;
  * @author  Prof. David Bernstein, James Madison University
  * @version 1.0
  */
-public class      WeatherBitMapsApp 
+public class      SniperFiApp 
        extends    AbstractMultimediaApp 
        implements ActionListener
 {
